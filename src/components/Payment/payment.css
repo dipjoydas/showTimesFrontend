@@ -1,0 +1,22 @@
+.paymentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background-color: #F2F4F8; */
+    
+}
+.payment p {
+    margin: 2rem;
+  
+}
+.payment {
+    color: white;
+   
+    width: 400px;
+    max-width: 80vw;
+    /* height: 300px; */
+    text-align: center;
+    box-shadow: 1px 1px 4px gray ,-1px -1px 4px gray;
+  
+}

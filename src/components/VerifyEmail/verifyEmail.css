@@ -1,0 +1,31 @@
+.verifyEmailContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+ .verifyEmailContainer .verifyEmail {
+    width: 300px;
+    padding: 1rem;
+    max-width: 90vw;
+    box-shadow:1px 1px 4px gray ,-1px -1px 4px gray ;
+    background-color: white;
+ }
+ .verifyEmailContainer input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    /* padding: 10px; */
+    text-align: left;
+    border-radius: 4px;
+
+ }
+ .verifyEmailContainer  input[type=submit] {
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
